@@ -245,9 +245,9 @@ public class Run {
             FileReader fileReader = new FileReader(saveFile);
 
             BufferedReader reader = new BufferedReader(fileReader);
-            String line = null;
-            String username = null;
-            String password = null;
+            String line;
+            String username;
+            String password;
             int balance = 0;
             while ((line = reader.readLine()) != null) {
                 String[] splittedLine = line.split("\t");
